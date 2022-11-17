@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2016",
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@shared/*": ["./src/shared/*"],
+      "@categories/*": ["./src/contexts/categories/*"],
+      "@orders/*": ["./src/contexts/orders/*"],
+      "@products/*": ["./src/contexts/products/*"],
+    },
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  }
+}
